@@ -1,0 +1,15 @@
+.gridd{
+    grid-template-columns: repeat(3, 1fr);
+    grid-auto-rows: minmax(100px, 200px);
+    display: grid;
+    gap: 1em;
+}
+.elemento1{
+    grid-column: 1/4;
+}
+
+.gridd > div {
+    background: gray;
+    padding: 1em;
+    border: 1px solid;
+}
