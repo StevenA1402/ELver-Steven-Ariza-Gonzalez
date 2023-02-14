@@ -1,0 +1,43 @@
+.container {
+}
+.titulo {
+    
+    color: yellow;
+    background: black;
+    padding: 20px;
+    font-size: 36px;
+}
+
+.Menu{
+    
+    background: rgb(158, 155, 155);
+    padding: 10px;
+    width: 300px;
+    height: 300px;
+}
+.cosas {
+    display: flex;
+}
+
+
+.foto{
+    width: 200px;
+    height: 200px;
+}
+
+.piedepagina{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: gray;
+}
+.imagen{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.cositasmalas{
+    width: 70%;
+    display: flex;
+    flex-flow: column wrap;
+}
